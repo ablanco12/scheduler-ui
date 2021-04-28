@@ -34,7 +34,7 @@ function Login() {
         </form>
         
         <button className="login__registerButton">
-          Create your dicaway Account
+          Create your AppGetaway Account
         </button>
       </div>
     </div>
