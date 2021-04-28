@@ -1,5 +1,6 @@
 import React from 'react'
 import Calendar from 'react-awesome-calendar';
+import DatePicker from './DatePicker'
 import {Carousel} from 'react-bootstrap'
 import './Schedule.css'
 
@@ -34,7 +35,7 @@ function Schedule() {
             </div>
             
             <div className="scheduler__images">
-            
+            <DatePicker />
             <Carousel>
                 <Carousel.Item>
                     <img

@@ -12,7 +12,7 @@ function Login() {
         <img
           className="login__logo"
           alt=""
-          src="https://raw.githubusercontent.com/appddictionstudio/appddictionstudioWEB/master/src/assets/video/app_logo_website.gif?token=AKXIKOGEZ5VMIDZAAQP3HL3ASHAPO"
+          src="https://github.com/ablanco12/scheduler-ui/blob/master/public/assets/app_logo_website.gif?raw=true"
         />
       </Link>
       <div className="login__container">
@@ -32,6 +32,7 @@ function Login() {
           />
           <button className="login__signInButton">Sign In</button>
         </form>
+        
         
         <button className="login__registerButton">
           Create your AppGetaway Account
