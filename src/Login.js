@@ -11,6 +11,7 @@ function Login() {
       <Link to="/">
         <img
           className="login__logo"
+          alt=""
           src="https://raw.githubusercontent.com/appddictionstudio/appddictionstudioWEB/master/src/assets/video/app_logo_website.gif?token=AKXIKOGEZ5VMIDZAAQP3HL3ASHAPO"
         />
       </Link>
