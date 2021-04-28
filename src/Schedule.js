@@ -39,84 +39,77 @@ function Schedule() {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src='https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake1.JPG?raw=true'
+                    src='https://github.com/ablanco12/scheduler-ui/blob/master/public/assets/lake1.JPG?raw=true'
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake2.JPG?raw=true"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/public/assets/lake2.JPG?raw=true"
                     alt="Second slide"
                     />
 
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake3.JPG?raw=true"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/public/assets/lake3.JPG?raw=true"
                     alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake4.JPG?raw=true"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/public/assets/lake4.JPG?raw=true"
                     alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                    <h3>Fourth slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake5.JPG?raw=true"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/public/assets/lake5.JPG?raw=true"
                     alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                    <h3>Fifth slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake6.JPG?raw=true"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/public/assets/lake6.JPG?raw=true"
                     alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                    <h3>Sixth slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake7.JPG?raw=true"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/public/assets/lake7.JPG?raw=true"
                     alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                    <h3>Seventh slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
