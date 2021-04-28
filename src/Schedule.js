@@ -1,8 +1,6 @@
 import React from 'react'
 import Calendar from 'react-awesome-calendar';
-import Carousel from 'react-material-ui-carousel'
-import { Paper, Button } from '@material-ui/core'
-
+import {Carousel} from 'react-bootstrap'
 import './Schedule.css'
 
 const events = [{
@@ -25,18 +23,6 @@ const events = [{
     title: 'This is also another event'
 }];
 
-var items = [
-    {
-        name: "Random Name #1",
-        description: "Probably the most random thing you have ever seen!",
-        image: "https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake1.JPG"
-
-    },
-    {
-        name: "Random Name #2",
-        description: "Hello World!"
-    }
-]
 
 function Schedule() {
     return (
@@ -46,31 +32,98 @@ function Schedule() {
                 events={events}
                 />
             </div>
+            
             <div className="scheduler__images">
-                <Carousel>
-                {
-                    items.map( (item, i) => <Item key={i} item={item} /> )
-                }
-                </Carousel>
-                
+            
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src='https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake1.JPG?raw=true'
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake2.JPG?raw=true"
+                    alt="Second slide"
+                    />
+
+                    <Carousel.Caption>
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake3.JPG?raw=true"
+                    alt="Third slide"
+                    />
+
+                    <Carousel.Caption>
+                    <h3>Third slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake4.JPG?raw=true"
+                    alt="Third slide"
+                    />
+
+                    <Carousel.Caption>
+                    <h3>Fourth slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake5.JPG?raw=true"
+                    alt="Third slide"
+                    />
+
+                    <Carousel.Caption>
+                    <h3>Fifth slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake6.JPG?raw=true"
+                    alt="Third slide"
+                    />
+
+                    <Carousel.Caption>
+                    <h3>Sixth slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://github.com/ablanco12/scheduler-ui/blob/master/src/assets/lake7.JPG?raw=true"
+                    alt="Third slide"
+                    />
+
+                    <Carousel.Caption>
+                    <h3>Seventh slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
             </div>
         </div>
     )
 }
 
-function Item(props)
-{
-    return (
-        <Paper>
-            <h2>{props.item.name}</h2>
-            <p>{props.item.description}</p>
-            <img href={props.item.image} alt=""/>
-
-            <Button className="CheckButton">
-                Check it out!
-            </Button>
-        </Paper>
-    )
-}
 
 export default Schedule

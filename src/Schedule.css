@@ -1,5 +1,22 @@
 .scheduler__calendar {
   height: auto;
-  width: 900px;
+  width: 100%;
+  padding-right: 100px;
+}
+
+.scheduler__images {
+  height: auto;
+  width: 75%;
+ 
+  /* padding-top: 100px; */
+}
+
+.scheduler {
   display: flex;
+  z-index: 100;
+  border: 10px solid gray;
+}
+
+img {
+  height: 680px;
 }
