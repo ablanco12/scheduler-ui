@@ -1,9 +1,13 @@
 .datepicker {
-  height: 100px;
-  display: flex;
+  /* height: 10px; */
+  /* display: flex; */
   align-items: center;
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  z-index: 100;
- 
+  z-index: 100; */
+  
+}
+
+.datepicker__search {
+  float: right;
 }

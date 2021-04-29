@@ -2,7 +2,7 @@
 import './App.css';
 import Schedule from './Schedule'
 import Nav from './Nav'
-import DatePicker from './DatePicker'
+// import DatePicker from './DatePicker'
 import AdminDash from './AdminDash'
 import MemberDash from './MemberDash'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
