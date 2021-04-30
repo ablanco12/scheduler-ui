@@ -1,4 +1,5 @@
 .menu {
   color: white;
-  padding-left: 85%;
+  /* padding-left: 85%; */
+  float: right;
 }
